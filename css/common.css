@@ -80,6 +80,28 @@
     margin-top: 0;
 }
 
+.m-0 {
+    margin: 0;
+}
+
+.aligning {
+    text-align: center;
+}
+
+.light {
+    font-weight: 100;
+}
+
+.heavy {
+    font-weight: 700;
+}
+
+.star-size {
+    font-size: 26px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
 .text-uppercase {
     text-transform: uppercase;
 }
