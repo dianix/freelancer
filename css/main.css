@@ -51,7 +51,7 @@ a.link:hover {
     color: #18BC9C;
 }
 
-#home {
+#home, #about {
     background-color: #18BC9C;
     padding-top: 130px;
     color: white;
@@ -72,7 +72,7 @@ a.link:hover {
     padding: 100px 0;
 }
 
-#portfolio h2 {
+h2 {
     font-size: 40px;
     margin: 0;
 }
@@ -85,8 +85,17 @@ a.link:hover {
     width: 90%
 }
 
+#contact form {
+    padding: 0 20%;
+}
 
+#contact form label {
+    display: block;
+}
 
+.separation {
+    border-top: .5px solid #b2b1b1;
+}
 
 
 
