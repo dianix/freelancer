@@ -35,6 +35,7 @@ nav {
 
 .color {
     background-color: #18BC9C;
+    width: 8.333%;
 }
 
 #principal {
@@ -149,7 +150,7 @@ h2 {
     border: none;
     padding: 13px 20px;
     background-color: #18BC9C;
-    border-radius: 10px;
+    border-radius: 6px;
     font-family: 'Lato', sans-serif;
     color: #ffffff;
     font-size: 19px;
@@ -184,13 +185,31 @@ footer a:hover {
 }
 
 #enlaces p:first-child {
-    width: 
+    width:
 }
 
 #enlaces p {
     font-size: 19px;
     line-height: 26px;
 }
+
+#enlaces button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+#enlaces button:hover {
+    background-color: #fff;
+    color: #18BC9C;
+    cursor: pointer;
+}
+
 #copy {
     background-color: #233140;
     padding: 15px 0;
