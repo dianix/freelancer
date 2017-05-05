@@ -33,6 +33,10 @@ nav {
     line-height: 60px;
 }
 
+.color {
+    background-color: #18BC9C;
+}
+
 #principal {
     float: left;
     font-size: 27px;
