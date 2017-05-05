@@ -84,6 +84,10 @@
     margin: 0;
 }
 
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
 .t-aligned {
     text-align: center;
 }
@@ -104,4 +108,8 @@
 
 .text-uppercase {
     text-transform: uppercase;
+}
+
+.separation {
+    border-top: .5px solid #f4f4f4;
 }

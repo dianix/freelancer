@@ -85,17 +85,87 @@ h2 {
     width: 90%
 }
 
-#contact form {
-    padding: 0 20%;
+#about {
+    padding-bottom: 100px;
 }
+
+#about button {
+    padding: 15px 40px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#contact {
+    padding: 50px 20% 80PX;
+}
+
 
 #contact form label {
-    display: block;
+    color: #18BC9C;
+    font-size: 12px;
+    display: none;
 }
 
-.separation {
-    border-top: .5px solid #b2b1b1;
+#contact form input, #contact form textarea {
+    border: none;
+    width: 100%;
+    height: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
 }
+
+::-webkit-input-placeholder { 
+  color: #b5b5b5;
+}
+
+#contact form textarea {
+    height: 150px;
+}
+
+#contact form button {
+    border: none;
+    padding: 13px 20px;
+    background-color: #18BC9C;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+footer {
+    color: white;
+}
+
+footer p {
+    width: 80%;
+    margin: 0 auto;
+}
+footer a {
+    color: #18BC9C;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#enlaces {
+    background-color: #2C3E50;
+    padding: 50px 0;
+}
+
+#copy {
+    background-color: #233140;
+    padding: 15px 0;
+    font-size: 13px;
+}
+
+
+
 
 
 
