@@ -1,6 +1,8 @@
 /** Estilos reutilizables*/
 
+
 /*  Clases de grid  */
+
 [class*="col-"] {
     min-height: 7px;
     padding: 12px;
@@ -71,7 +73,9 @@
     clear: both;
 }
 
+
 /* Clases reutilizables */
+
 .mbottom-0 {
     margin-bottom: 0;
 }
@@ -80,6 +84,40 @@
     margin-top: 0;
 }
 
+.m-0 {
+    margin: 0;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.t-aligned {
+    text-align: center;
+}
+
+.float-right {
+    float: right;
+}
+
+.light {
+    font-weight: 100;
+}
+
+.heavy {
+    font-weight: 700;
+}
+
+.star-size {
+    font-size: 26px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
 .text-uppercase {
     text-transform: uppercase;
+}
+
+.separation {
+    border-top: .5px solid #f4f4f4;
 }
