@@ -1,6 +1,8 @@
 /** Estilos reutilizables*/
 
+
 /*  Clases de grid  */
+
 [class*="col-"] {
     min-height: 7px;
     padding: 12px;
@@ -71,7 +73,9 @@
     clear: both;
 }
 
+
 /* Clases reutilizables */
+
 .mbottom-0 {
     margin-bottom: 0;
 }
@@ -90,6 +94,10 @@
 
 .t-aligned {
     text-align: center;
+}
+
+.float-right {
+    float: right;
 }
 
 .light {
